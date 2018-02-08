@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="question_china">钓鱼岛是中国的吗</string>
+    <string name="question_japan">钓鱼岛是日本的吗</string>
+    <string name="true_button">TRUE</string>
+    <string name="false_button">FALSE</string>
+    <string name="next_button">NEXT</string>
+    <string name="previous_button">PREV</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">SHOW ANSWER</string>
+    <string name="cheat_button">CHEAT!</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
+    <string name="first">It is already the first question!</string>
+</resources>

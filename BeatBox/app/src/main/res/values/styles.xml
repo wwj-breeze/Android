@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme_red" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+        <!-- 追查根源找到android:Theme.Holo中覆盖这个可以修改app背景颜色-->
+        <item name="android:colorBackground">@color/soothing_bule</item>
+        <item name="android:buttonStyle">@style/BeatBoxButton</item>
+    </style>
+
+    <style name="BeatBoxButton" parent="android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/button_beat_box</item>
+    </style>
+
+
+</resources>

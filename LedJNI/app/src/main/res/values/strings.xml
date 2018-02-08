@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LedJNI</string>
+    <string name="LED_ON">LED ON</string>
+    <string name="LED_OFF">LED OFF</string>
+</resources>
